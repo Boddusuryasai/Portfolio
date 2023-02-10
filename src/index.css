@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+    progress[value]::-webkit-progress-value {
+      background-color: #EC4899;
+    }
+    progress[value]::-moz-progress-bar {
+      background-color: #EC4899;
+    }
+  

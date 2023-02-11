@@ -21,13 +21,13 @@ function Main() {
               </p>
               <div className="mt-8 flex gap-x-4 sm:justify-center">
                 <a
-                  href="/"
+                  href="https://github.com/Boddusuryasai" target="_blank"
                   className="inline-block rounded-lg   text-base font-semibold leading-7  shadow-sm  "
                 >
                    <AiFillGithub  size="2rem"></AiFillGithub>
                 </a>
                 <a
-                  href="/"
+                  href="https://www.linkedin.com/in/surya-sai-3ab27b160/" target="_blank"
                   className="inline-block rounded-lg   text-base font-semibold leading-7  shadow-sm  "
                 >
                    <AiFillLinkedin size="2rem"></AiFillLinkedin>

@@ -3,7 +3,8 @@ import React from 'react';
 const SkillSet = () => {
   return (
     <>
-    <h3 className='text-3xl text-center font-semibold'>My Skills</h3>
+    <h3 className='text-3xl text-center font-semibold mb-2'>My Skills</h3>
+    <hr />
     <div className='flex flex-col items-center md:flex-row  justify-center m-6 gap-1  '>
          
         <div className='sm:w-1/2'>

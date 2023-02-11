@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link} from "react-router-dom";
+import {BsEmojiSunglassesFill} from "react-icons/bs"
 
 function Navbar() {
   return (
@@ -20,11 +20,9 @@ function Navbar() {
     <div>
       <nav className="flex h-9 items-center justify-between" aria-label="Global">
         <div className="flex lg:min-w-0 lg:flex-1" aria-label="Global">
-          <a href="/" className="inline-block rounded-lg bg-blue-500 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 bg-blue-500 hover:bg-blue-600 hover:bg-blue-600">
-            My Portfolio
-          </a>
+          <BsEmojiSunglassesFill size="3rem"></BsEmojiSunglassesFill>
         </div>
-        <div className="border-2 rounded-xl p-2 border-blue-500">suryasaichanti@gmail.com</div>
+        <div className="border-2 rounded-xl p-2">suryasaichanti@gmail.com</div>
       </nav>
     </div>
   </div>
